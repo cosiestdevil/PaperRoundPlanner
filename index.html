@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paper Round Planner</title>
+  </head>
+  <body>
+    <main>
+      <aside>
+        <p>
+          <label>Distance: <span id="distance"></span></label>
+        </p>
+        <p>
+          <label>Duration: <span id="duration"></span></label>
+        </p>
+        <ul id="locations">
+          <li data-location-id="home">
+            <fieldset>
+              <legend>Home</legend>
+              <label>
+                Address
+                <textarea type="text" name="address"></textarea>
+              </label>
+            </fieldset>
+          </li>
+        </ul>
+        <button id="new-location">New Location</button>
+      </aside>
+      <section id="map"></section>
+    </main>
+    <template id="location-template">
+      <li>
+        <fieldset>          
+          <label>Address<textarea type="text" name="address"></textarea></label>
+        </fieldset>
+      </li>
+    </template>
+    <script type="module">
+      import setup from "./main.js";
+      setup();
+    </script>
+  </body>
+</html>

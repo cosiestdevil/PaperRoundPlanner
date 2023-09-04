@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='40' height='40.055'>
+<path d='M1.249 3.183v17.948a2 2 45 0 0 2 2h7.56c1.104 0 2.584.683 3.186 1.608 2.388 3.668 4.193 9.047 5.458 12.165 1.158-2.949 3.05-8.416 5.45-12.153.596-.929 2.065-1.62 3.17-1.62h8.698a2 2 135 0 0 2-2V3.183a2 2 45 0 0-2-2H3.25a2 2 135 0 0-2 2z' style='fill:#fff;stroke:var(--marker-color);stroke-width:2.20726'/>
+<svg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='26.175' height='40.055'>
+<circle cx='13.143' cy='12.88' r='7.492' style='fill:var(--marker-color);stroke:none;stroke-width:2.20726'/>
+</svg>
+<text x='75%' y='18' style='font-size:1rem;text-anchor:middle;fill:#000;font-family:impact'>
+{text}</text>
+</svg>

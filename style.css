@@ -1,0 +1,33 @@
+:root {
+  font-family: system-ui, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+}
+main > section {
+  flex-grow: 1;
+  height: 100%;
+}
+main > aside {
+  flex-basis: 200px;
+  flex-grow: 0;
+  padding:5px;
+}
+
+#locations {
+  list-style: none;
+
+  padding-inline-start: 0;
+}
